@@ -1,0 +1,781 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.header2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.account_settings {
+    position: absolute;
+    right: 5px;
+}
+
+/* .cart{
+    position: absolute;
+    right: 2px;
+} */
+.clr a:hover {
+    color: black
+}
+
+.header_mouse {
+    text-decoration: none;
+    color: white;
+}
+
+.verizon_follow {
+    position: absolute;
+    right: 15px;
+}
+
+.sign_In {
+    position: absolute;
+    right: 90px;
+    top: 13px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: '18px';
+
+}
+
+.sign_In:hover {
+    color: green;
+}
+
+.my-account li:hover {
+    color: green;
+}
+
+
+.verizon_text {
+    position: absolute;
+    left: 15px;
+    font-family: sans-serif;
+    /* font-size: 27px; */
+}
+
+.footer_ver {
+    height: 300px;
+}
+
+.footer_div {
+    align-items: center;
+    padding: 20px;
+}
+
+body {
+    background-color: #aaa;
+}
+
+.header_mouse:focus {
+    color: green;
+}
+
+.message {
+    background-color: black;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.message_1 {
+    color: #aaa;
+    font-size: 50px;
+}
+
+.logo {
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.header_1 {
+    text-align: left;
+    color: white;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.header1 {
+    text-align: right;
+    color: aliceblue;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.mouse {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.mouse:hover {
+    color: chartreuse;
+}
+
+.header_2 {
+    padding-right: 10px;
+}
+
+p {
+    color: aliceblue;
+}
+
+/* ---------------------------*/
+
+.card_style {
+    cursor: pointer;
+    transition: .3s;
+    background-color: black;
+}
+
+.smalltrash {
+    display: none;
+}
+
+.options {
+    position: absolute;
+    left: 10px;
+
+}
+
+.social:hover {
+    font-size: 25px;
+}
+
+.index {
+    position: absolute;
+    z-index: -1;
+}
+
+.card_style:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.iteamsdetails {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.items_img {
+    flex: .4;
+}
+
+.items_img img {
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.details {
+    flex: .5;
+}
+
+;
+
+.rating {
+    background-color: green;
+}
+
+@media (max-width:772px) {
+    .iteamsdetails {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:450px) {
+    .smalltrash {
+        display: block;
+    }
+
+    .largetrash {
+        display: none;
+    }
+
+    .emptycart_img {
+        margin-right: 50px;
+    }
+
+    .smallclose {
+        display: none;
+    }
+
+    /* individual iteams details */
+
+    .items_img img {
+        width: 16rem;
+    }
+
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+Edit in JSFiddle Result HTML CSS Resources
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+body {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    min-height: 100vh;
+}
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+
+
+
+
+
+.header2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header_mouse {
+    text-decoration: none;
+    color: white;
+}
+
+.logIn {
+    width: 50%;
+}
+
+#login-info {
+    margin-top: 10px;
+    color: black !important;
+
+}
+
+.user-id {
+    margin-top: 25px;
+}
+
+.pwd-id {
+    margin-top: 10px;
+}
+
+.signIn {
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+}
+
+
+.header_mouse:hover {
+    color: green;
+}
+
+.message {
+    background-color: black;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.message_1 {
+    color: #aaa;
+    font-size: 50px;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+
+}
+
+.header_1 {
+    text-align: left;
+    color: white;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.header1 {
+    text-align: right;
+    color: aliceblue;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.security {
+    position: absolute;
+    left: 296px;
+    top: 191px;
+    background-color: black;
+    color: white;
+}
+
+.security ul li {
+    list-style: none;
+}
+
+.mouse {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.mouse:hover {
+    color: chartreuse;
+}
+
+.header_2 {
+    padding-right: 10px;
+    text-align: left;
+}
+
+#head {
+    color: aliceblue;
+}
+
+/* ---------------------------*/
+
+.card_style {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.smalltrash {
+    display: none;
+}
+
+
+.card_style:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.iteamsdetails {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.items_img {
+    flex: .4;
+}
+
+.items_img img {
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.details {
+    flex: .5;
+}
+
+;
+
+.rating {
+    background-color: green;
+}
+
+@media (max-width:772px) {
+    .iteamsdetails {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:450px) {
+    .smalltrash {
+        display: block;
+    }
+
+    .largetrash {
+        display: none;
+    }
+
+    .emptycart_img {
+        margin-right: 50px;
+    }
+
+    .smallclose {
+        display: none;
+    }
+
+    /* individual iteams details */
+
+    .items_img img {
+        width: 16rem;
+    }
+
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+Edit in JSFiddle Result HTML CSS Resources
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+body {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    min-height: 100vh;
+}
+
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+
+
+
+
+.account-list {
+    position: absolute;
+    top: 38px;
+    left: 31%;
+    z-index: 1;
+    padding: 10px;
+    background-color: black;
+}
+
+.account-list li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    border-bottom: o.2px solid;
+}
+
+.account-list li:hover {
+    color: green;
+    cursor: pointer;
+}
+
+
+.my-account ul {
+    position: absolute;
+    top: 32px;
+    right: 70px;
+    z-index: 1;
+    padding: 10px;
+    background-color: black;
+}
+
+.my-account ul li {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+.my-account ul li:hover {
+    cursor: pointer;
+}
+
+.account-settings-sidenav li {
+    list-style: none;
+    padding: 5px;
+}
+
+.account-settings-sidenav li:hover {
+    cursor: pointer;
+    color: rgb(13, 128, 0);
+}
+
+.bill ul {
+    position: absolute;
+    top: 32px;
+    left: 150px;
+    z-index: 1;
+    width: 225px;
+    background-color: black;
+}
+
+.account-settings ul {
+    position: absolute;
+    top: 29px;
+    left: 150px;
+    width: 192px;
+    z-index: 1;
+    background-color: black;
+}
+
+.usage ul {
+    position: absolute;
+    top: 27px;
+    left: 150px;
+    width: 192px;
+    z-index: 1;
+    background-color: black;
+}
+
+
+.verizon_follow {
+    position: absolute;
+    right: 15px;
+}
+
+.verizon_text {
+    position: absolute;
+    left: 15px;
+}
+
+.verizon_text a:hover {
+    color: green;
+}
+
+
+.footer_ver {
+    height: 120px;
+}
+
+.footer_div {
+    align-items: center;
+    padding: 20px;
+}
+
+/* .fa-1x {
+    font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+    cursor: pointer;
+  }
+  .dark-blue-text {
+    color: #d29130;
+  } */
+/* extra menu bar styles */
+.menu-b {
+    text-decoration: none;
+    /* transition: color 0.3s ease; */
+}
+
+.menu-style {
+    /* position: absolute;
+    right: 30px; */
+    width: 700px;
+    height: 300px;
+    color: white;
+    background-color: black;
+    margin: 0.1px;
+}
+
+.menu-style:hover {
+    color: green;
+}
+
+
+.menu-b:hover {
+    color: tomato;
+}
+
+#menuToggle {
+    display: block;
+    position: absolute;
+    top: 48px;
+    right: 50px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: grey;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+.overlay{
+    z-index: -2;
+}
+
+
+.quick_menu {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: -7px;
+    right: -30px;
+    background-color:black;
+    border-radius: 10px;
+
+}
+
+.quick_link {
+    position: absolute;
+    top: 1px;
+    right: 26px;
+    background-color: black;
+    font-size: 30px;
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+    position: absolute;
+    top: 30px;
+    width: 600px;
+    background-color: grey;
+    margin: -100px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    right: -100px;
+
+    /* background: #ededed; */
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+#menuToggle input:checked~ul {
+    transform: none;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    #menu {
+        transform: none;
+        opacity: 0;
+
+        transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+}
